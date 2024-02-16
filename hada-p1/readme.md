@@ -14,3 +14,8 @@ Si hubiera algun add, se hubiera borrado
 P3
 La diferencia es que el revert deshace el ultimo commit y
 reset te lo borra todo hasta el ultimo commit.
+
+P4
+
+La diferencia es que merge crea un nuevo commit de fusión que integra los cambios 
+de una rama en otra y rebase reescribe los cambios de una rama con la base de otra
