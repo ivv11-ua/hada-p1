@@ -21,5 +21,18 @@ namespace hada_p1
                 return minutos;
             }
         }
+        public static double Minutes2Seconds(double m)
+        {
+            double segundos;
+            if (m == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                segundos = m * 60;
+                return segundos;
+            }
+        }
     }
 }
