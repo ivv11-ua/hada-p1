@@ -17,7 +17,7 @@ namespace hada_p1
         /// <returns></returns>
         public static double Seconds2Minutes(double s)
         {
-            double minutos; //esto son minutoss
+            double minutos; //esto son minutosssssSS
             if (s == 0)
             {
                 return 0;
