@@ -21,3 +21,10 @@ Confirmar todo y sincronizar significa que te hace un git pull para los que haya
 desde el remoto actualizarlo en tu directoro y después poder hacer el git push 
 para poder subirlo al gitHub.
 Su comando git equivalente es git commit, git push y el git pull
+
+
+#Pregunta 7
+La diferencia es que sincronizar te hace un git pull, te trae la información de lo remoto
+directamente a tu ordenador y extraer es un git fetch que antes pasa por el repositorio local
+
+L
