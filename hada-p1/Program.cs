@@ -5,7 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace hada_p1
-{
+{   
+    /// <summary>
+    /// 
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -14,7 +17,7 @@ namespace hada_p1
             string cantidad;
             do
             {
-                Console.WriteLine("segundos/minutos?");
+                Console.WriteLine("segundos/minutos/horas?");
                 resp = Console.ReadLine();
                 Console.WriteLine("Cantidad a convertir?");
                 cantidad = Console.ReadLine();
@@ -25,9 +28,16 @@ namespace hada_p1
                 }
                 else
                 {
-                    Console.WriteLine(HadaP1.Minutes2Seconds(double.Parse(cantidad)));
+                    if (resp == "minutos")
+                    {
+                        Console.WriteLine(HadaP1.Minutes2Seconds(double.Parse(cantidad)));
+                    }
+                    else 
+                    {
+                        Console.WriteLine(HadaP1.Horas2Minutos(double.Parse(cantidad)));
+                    }
                 }
-            } while (resp == "segundos" || resp == "minutos");
+            } while (resp == "segundos" || resp == "minutos" || resp == "horas");
         }
     }
 }
