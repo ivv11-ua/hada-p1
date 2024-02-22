@@ -46,5 +46,23 @@ namespace hada_p1
                 return segundos;
             }
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="horas"></param>
+        /// <returns></returns>
+        public static double Horas2Minutos(double horas)
+        {
+            double minutos;
+            if (horas == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                minutos = horas * 60;
+                return minutos;
+            }
+        }
     }
 }
