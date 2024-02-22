@@ -5,9 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace hada_p1
-{
+{   /// <summary>
+    /// 
+    /// </summary>
     class HadaP1
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         public static double Seconds2Minutes(double s)
         {
             double minutos;
@@ -21,6 +28,11 @@ namespace hada_p1
                 return minutos;
             }
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="m"></param>
+        /// <returns></returns>
         public static double Minutes2Seconds(double m)
         {
             double segundos;
