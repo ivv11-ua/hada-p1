@@ -24,7 +24,7 @@ Su comando git equivalente es git commit, git push y el git pull
 
 
 #Pregunta 7
-La diferencia es que sincronizar te hace un git pull, te trae la información de lo remoto
-directamente a tu ordenador y extraer es un git fetch que antes pasa por el repositorio local
+La diferencia es que extraer te hace un git pull, te trae la información de lo remoto
+directamente a tu ordenador y sincronizar es un git fetch que antes pasa por el repositorio local
 
 L
